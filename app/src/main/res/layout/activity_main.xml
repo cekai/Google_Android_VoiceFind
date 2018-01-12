@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/colorButtonNormal"
+    tools:context="com.example.demouser.voicefind.MainActivity">
+
+    <TextView
+        android:id="@+id/inputName"
+        android:layout_width="194dp"
+        android:layout_height="69dp"
+        android:layout_above="@+id/imageButton4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="43dp"
+        android:fontFamily="serif-monospace"
+        android:hint="What's your name?"
+        android:text=""
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="91dp"
+        tools:layout_editor_absoluteY="66dp" />
+
+    <Button
+        android:id="@+id/imageButton4"
+        android:layout_width="80dp"
+        android:layout_height="125dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="177dp"
+        android:adjustViewBounds="true"
+        android:drawableBottom="@drawable/mic"
+        android:onClick="onButtonClick"
+        android:scaleType="fitCenter" />
+        <!--app:srcCompat="@drawable/microphone"-->
+        <!--tools:layout_editor_absoluteX="119dp"-->
+        <!--tools:layout_editor_absoluteY="137dp"-->
+
+
+</RelativeLayout>
